@@ -68,7 +68,7 @@ public class HttpStreamServer implements Runnable {
 
     public void run() {
         try {
-            System.out.print("go to  http://localhost:8080 with browser");
+            System.out.println("go to  http://localhost:8080 with browser");
             startStreamingServer();
 
             while (true) {
